@@ -1,0 +1,26 @@
+---
+schemaVersion: 2.1.0
+metadata:
+  attributes:
+    metadata-name-field: generateName
+    metadata-name-original-value: blueguardian-co.github.io
+  name: blueguardian-co.github.io
+  namespace: alex-blueguardianco-devspaces
+attributes:
+  che-theia.eclipse.org/sidecar-policy: mergeImage
+projects:
+  - attributes: {}
+    name: blueguardian-co-github-io
+    git:
+      remotes:
+        origin: https://github.com/blueguardian-co/blueguardian-co.github.io.git
+components:
+  - name: universal-developer-image
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel8:latest
+      endpoints:
+        - exposure: public
+          name: http
+          protocol: http
+          targetPort: 3000
+commands: []
