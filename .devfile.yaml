@@ -23,4 +23,10 @@ components:
           name: http
           protocol: http
           targetPort: 3000
-commands: []
+commands:
+  - id: run
+    exec:
+      component: universal-developer-image
+      commandLine: 'npm start'
+      label: run
+      workingDir: '${PROJECT_SOURCE}'
