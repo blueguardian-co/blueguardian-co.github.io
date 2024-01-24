@@ -20,8 +20,8 @@ components:
       image: registry.redhat.io/devspaces/udi-rhel8:latest
       endpoints:
         - exposure: public
-          name: http
-          protocol: http
+          name: https
+          protocol: https
           targetPort: 3000
 commands:
   - id: run
