@@ -5,6 +5,9 @@
     <sitemap priority="0.35" change-frequency="monthly"/>
     <variables>
         <noindex-content>false</noindex-content>
+        <enable-contribution>true</enable-contribution>
+        <primary-color>aqua</primary-color>
+        <color-preset>vivid</color-preset>
     </variables>
     <footer>
         <social type="email" href="mailto:support@blueguardian.co">Contact Us</social>

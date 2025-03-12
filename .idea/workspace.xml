@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16bf02f9-f075-4aee-934a-7f7bdd943b3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/Tracker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/Unmanned-Systems.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/bc.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/bc.tree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/Home.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/Home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Tracker.md" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/Tracker.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +83,9 @@
       </map>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2uBgMNmWt0tsCwnhXP7OB02Gek5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -105,6 +103,27 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
+    "timeTracker.activityTracker": "null",
+    "timeTracker.comment": "",
+    "timeTracker.inactivityPeriodInMills": "600000",
+    "timeTracker.isAutoTrackingEnable": "false",
+    "timeTracker.isAutoTrackingTemporaryDisabled": "false",
+    "timeTracker.isManualTrackingEnable": "false",
+    "timeTracker.isPaused": "true",
+    "timeTracker.isPostAfterCommitEnabled": "false",
+    "timeTracker.isPostedScheduled": "true",
+    "timeTracker.isRunning": "false",
+    "timeTracker.isScheduledEnabled": "false",
+    "timeTracker.isWhenProjectClosedEnabled": "false",
+    "timeTracker.issueId": "Default",
+    "timeTracker.issueIdReadable": "Default",
+    "timeTracker.pausedTime": "0",
+    "timeTracker.query": "",
+    "timeTracker.recordedTime": "0",
+    "timeTracker.scheduledPeriod": "19:00:0",
+    "timeTracker.startTime": "0",
+    "timeTracker.timeInMills": "0",
+    "timeTracker.type": "None",
     "vue.rearranger.settings.migration": "true",
     "writerside.last.selected.productblueguardian-co.github.io": "bc"
   }
@@ -125,7 +144,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740970021633</updated>
-      <workItem from="1741727333427" duration="11844000" />
+      <workItem from="1741727333427" duration="13125000" />
+      <workItem from="1741812855453" duration="50000" />
+      <workItem from="1741820687074" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="Add Writerside documentation project setup and CI workflow&#10;&#10;This commit introduces the initial Writerside documentation project setup, including configuration files, topic structure, sample content, and library snippets. It also adds a GitHub Actions CI workflow to build, test, and deploy the documentation to GitHub Pages.">
       <option name="closed" value="true" />
@@ -191,8 +212,20 @@
       <option name="project" value="LOCAL" />
       <updated>1741757772476</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
-    <servers />
+    <task id="LOCAL-00009" summary="Add product pages and refine Writerside configuration&#10;&#10;Added &quot;Tracker&quot; and &quot;Unmanned Systems&quot; pages with open-source details. Updated Writerside TOC structure to include new topics under &quot;Products.&quot; Improved build profiles with sitemap priority and adjusted metadata for clarity and transparency.">
+      <option name="closed" value="true" />
+      <created>1741760689373</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741760689373</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers>
+      <YouTrack url="https://youtrack.blueguardian.co">
+        <username>random</username>
+      </YouTrack>
+    </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -217,6 +250,7 @@
     <MESSAGE value="Update CI artifact handling and IntelliJ workspace metadata&#10;&#10;Added dynamic environment variable generation for artifact handling in the CI workflow to improve flexibility and reliability. Updated IntelliJ workspace metadata to streamline task management and project settings. These changes enhance maintainability and compatibility across the workflow." />
     <MESSAGE value="Update CI artifact handling and refine workspace configuration&#10;&#10;Added dynamic environment variables for CI artifact handling to enhance flexibility and reliability. Updated IntelliJ workspace metadata to streamline task management and improve project settings. These changes boost workflow maintainability and compatibility." />
     <MESSAGE value="Update Writerside configuration and add footer details&#10;&#10;Set &quot;Home.md&quot; as the default start page and adjusted the table of contents for Writerside. Enhanced build profiles by adding footer elements like contact, GitHub link, and copyright information. Refined workspace metadata to streamline project management and improve CI workflow maintainability." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Writerside configuration and add footer details&#10;&#10;Set &quot;Home.md&quot; as the default start page and adjusted the table of contents for Writerside. Enhanced build profiles by adding footer elements like contact, GitHub link, and copyright information. Refined workspace metadata to streamline project management and improve CI workflow maintainability." />
+    <MESSAGE value="Add product pages and refine Writerside configuration&#10;&#10;Added &quot;Tracker&quot; and &quot;Unmanned Systems&quot; pages with open-source details. Updated Writerside TOC structure to include new topics under &quot;Products.&quot; Improved build profiles with sitemap priority and adjusted metadata for clarity and transparency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add product pages and refine Writerside configuration&#10;&#10;Added &quot;Tracker&quot; and &quot;Unmanned Systems&quot; pages with open-source details. Updated Writerside TOC structure to include new topics under &quot;Products.&quot; Improved build profiles with sitemap priority and adjusted metadata for clarity and transparency." />
   </component>
 </project>
