@@ -8,6 +8,11 @@
         <variables>
             <noindex-content>false</noindex-content>
         </variables>
+        <footer>
+            <social type="email" href="mailto:support@blueguardian.co">Contact Us</social>
+            <social type="github" href="https://github.com/orgs/blueguardian-co/repositories">GitHub</social>
+            <copyright>2025 BlueGuardian Co</copyright>
+        </footer>
     </build-profile>
 
 </buildprofiles>

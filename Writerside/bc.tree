@@ -4,8 +4,8 @@
 
 <instance-profile id="bc"
                  name="BlueGuardian Co"
-                 start-page="blueguardian-co.md">
+                 start-page="Home.md">
 
-    <toc-element topic="blueguardian-co.md"/>
     <toc-element topic="Home.md"/>
+    <toc-element topic="blueguardian-co.md"/>
 </instance-profile>
