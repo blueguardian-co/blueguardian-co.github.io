@@ -5,11 +5,13 @@ on:
     branches: ["main"]
   workflow_dispatch:
 permissions:
+  contents: read
   id-token: write
   pages: write
 env:
   INSTANCE: 'Writerside/bc'
   DOCKER_VERSION: '2025.03.8312'
+  # IS_GROUP: 'true'  # Uncomment to build a group
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,11 +29,15 @@ jobs:
           INSTANCE_ID_UPPER=$(echo "$INSTANCE" | tr '[:lower:]' '[:upper:]')
           ARTIFACT="webHelp${INSTANCE_ID_UPPER}2-all.zip"
           
+          # Print the values
           echo "INSTANCE_ID_UPPER: $INSTANCE_ID_UPPER"
           echo "ARTIFACT: $ARTIFACT"
           
+          # Set the environment variables and outputs
           echo "INSTANCE_ID_UPPER=$INSTANCE_ID_UPPER" >> $GITHUB_ENV
           echo "ARTIFACT=$ARTIFACT" >> $GITHUB_ENV
+          echo "artifact=$ARTIFACT" >> $GITHUB_OUTPUT
+
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
