@@ -121,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740970021633</updated>
-      <workItem from="1741727333427" duration="5335000" />
+      <workItem from="1741727333427" duration="6254000" />
     </task>
     <task id="LOCAL-00001" summary="Add Writerside documentation project setup and CI workflow&#10;&#10;This commit introduces the initial Writerside documentation project setup, including configuration files, topic structure, sample content, and library snippets. It also adds a GitHub Actions CI workflow to build, test, and deploy the documentation to GitHub Pages.">
       <option name="closed" value="true" />
@@ -139,15 +139,35 @@
       <option name="project" value="LOCAL" />
       <updated>1741752107073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update CI artifact handling and Docker version&#10;&#10;Refactored artifact naming to dynamically generate values in the CI workflow, improving flexibility and maintainability. Upgraded the Docker version for compatibility enhancements. Adjusted IntelliJ workspace metadata for better task and project configuration.">
+      <option name="closed" value="true" />
+      <created>1741752684370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741752684370</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Writerside documentation project setup and CI workflow&#10;&#10;This commit introduces the initial Writerside documentation project setup, including configuration files, topic structure, sample content, and library snippets. It also adds a GitHub Actions CI workflow to build, test, and deploy the documentation to GitHub Pages." />
     <MESSAGE value="Update Docker version in CI and adjust workspace settings&#10;&#10;Upgraded the Docker version in the CI configuration file for compatibility improvements. Adjusted IntelliJ workspace settings, including Git preferences, default account, and task configurations to streamline development workflow. Added metadata related to the Writerside documentation project setup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Docker version in CI and adjust workspace settings&#10;&#10;Upgraded the Docker version in the CI configuration file for compatibility improvements. Adjusted IntelliJ workspace settings, including Git preferences, default account, and task configurations to streamline development workflow. Added metadata related to the Writerside documentation project setup." />
+    <MESSAGE value="Update CI artifact handling and Docker version&#10;&#10;Refactored artifact naming to dynamically generate values in the CI workflow, improving flexibility and maintainability. Upgraded the Docker version for compatibility enhancements. Adjusted IntelliJ workspace metadata for better task and project configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CI artifact handling and Docker version&#10;&#10;Refactored artifact naming to dynamically generate values in the CI workflow, improving flexibility and maintainability. Upgraded the Docker version for compatibility enhancements. Adjusted IntelliJ workspace metadata for better task and project configuration." />
   </component>
 </project>
