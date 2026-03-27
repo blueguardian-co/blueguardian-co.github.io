@@ -20,6 +20,8 @@ If you are onboarding to the platform, please go to the [application](https://tr
 [//]: # (TODO replace GitHub links to product pages)
 
 We work in the clear, feel free to have a look at our source code:
-1. [Web Application](https://github.com/blueguardian-co/cerebralstratum-frontend)
-2. [Mobile apps (iOS and Android)](https://github.com/blueguardian-co/cerebralstratum-flutter)
-3. [Device firmware](https://github.com/blueguardian-co/tracker-firmware)
+1. [Client/User Applications](https://github.com/blueguardian-co/cerebralstratum-frontend)
+  - [Documentation](https://blueguardian.co/cerebralstratum-frontend)
+3. [Backend Services](https://github.com/blueguardian-co/cerebralstratum-backend)
+  - [Documentation](https://blueguardian.co/cerebralstratum-backend)
+4. [Device firmware](https://github.com/blueguardian-co/tracker-firmware)
